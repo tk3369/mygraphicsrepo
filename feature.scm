@@ -22,7 +22,7 @@
 					      3      ;; sides
 					      8      ;; angle
 					      2      ;; side increase per iteration
-					      40))
+					      70))
 
 		    ;; hexagonal Gosper curve - page 12
 		    ((4) (draw-koch-curve 9 (if iphone? 5 10) 3))
