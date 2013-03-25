@@ -14,11 +14,11 @@
 					  (if phone? 2 3)))   ;; level
 
 		    ;; dragon curve - page 11 
-		    ((2) (draw-dragon-curve (if phone? 6 12)    ;; length
-					    (if phone? 10 10))) ;; level
+		    ((2) (draw-dragon-curve (if phone? 6 12)  ;; length
+					    10))              ;; level
 
 		    ;; custom pattern
-		    ((3) (draw-polygon-spiral (if phone? 6 15)                  ;; length
+		    ((3) (draw-polygon-spiral (if phone? 6 15) ;; length
 					      3      ;; sides
 					      8      ;; angle
 					      2      ;; side increase per iteration
