@@ -28,6 +28,6 @@
 					      70))
 
 		    ;; hexagonal Gosper curve - page 12
-		    ((4) (draw-koch-curve 9 (if iphone? 5 10) 3))
+		    ((4) (draw-koch-curve 8 (if iphone? 5 10) 3))
 
 		    ))))
