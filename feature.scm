@@ -18,7 +18,7 @@
 					    10))              ;; level
 
 		    ;; custom pattern
-		    ((3) (draw-polygon-spiral (if phone? 6 15) ;; length
+		    ((3) (draw-polygon-spiral (if phone? 6 40) ;; length
 					      3      ;; sides
 					      8      ;; angle
 					      2      ;; side increase per iteration
