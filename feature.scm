@@ -19,10 +19,10 @@
 
 		    ;; custom pattern
 		    ((3) (draw-polygon-spiral (if phone? 6 15)                  ;; length
-					      (random-between-integer 3 5)      ;; sides
-					      (random-between-integer 5 35)     ;; angle
-					      (random-between-integer 2 3)      ;; side increase per iteration
-					      (random-between-integer 50 75)))  ;; iterations
+					      5      ;; sides
+					      13     ;; angle
+					      3      ;; side increase per iteration
+					      50))
 
 		    ;; hexagonal Gosper curve - page 12
 		    ((4) (draw-koch-curve 9 (if iphone? 5 10) 3))
