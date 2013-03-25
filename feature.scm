@@ -18,6 +18,7 @@
 					      (random-between-integer 2 3) ;; side increase per iteration
 					      (random-between-integer 50 75))) ;; iterations
 		    ((4) (draw-koch-curve (random-from-list '(1 2 3 4 5))  ;; koch curve type
-					  (random-from-list '(3 5 8 12 20)) ;; length
+					  (if ipone? (random-from-list '(3 5 8))
+						     (random-from-list '(8 12 20 25)))  ;; length
 					  (random-between-integer 2 3))) ;; level
 		    ))))
