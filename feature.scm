@@ -6,6 +6,8 @@
 		      (phone? (ui:running-in-iphone?)))
 		  (case r
 
+		    (log-info "Drawing feature image #" r)
+
 		    ;; custom tree
 		    ((1) (draw-lsys-graph '(f)
 					  '((f f [ + + f [ f f ] + f ] f [ - f - f ] f [ - - f [ + f ] - f f ] f [ + f ])) 
