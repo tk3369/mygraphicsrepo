@@ -30,7 +30,7 @@
 		    ;; hexagonal Gosper curve - page 12
 		    ((4) (draw-lsys-graph '(fl)
 					  '((fl fl + fr + + fr - fl - - fl fl - fr +) (fr - fl + fr fr + + fr + fl - - fl - fr))
-					  (if iphone? 5 10) ;; length
+					  (if iphone? 5 20) ;; length
 					  60                ;; angle
 					  4))               ;; level
 
