@@ -34,9 +34,16 @@
 					  60                ;; angle
 					  4))               ;; level
 
-		    ;; hexagonal Gosper curve - page 12
+		    ;; koch - page 10
 		    ((5) (draw-lsys-graph '(f - f - f - f)
 					  '((f f f - f + f - f - f f))
+					  (if phone? 5 20)  ;; length
+					  90                ;; angle
+					  3))               ;; level
+
+		    ;; faas - page 17
+		    ((6) (draw-lsys-graph '(- l)
+					  '((l l f + r f r + f l - f - l f l f l - f r f r +) (r - l f l f + r f r f r + f + r f - l f l - f r))
 					  (if phone? 5 20)  ;; length
 					  90                ;; angle
 					  3))               ;; level
