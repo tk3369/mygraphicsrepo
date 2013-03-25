@@ -17,7 +17,7 @@
 		    ((2) (draw-dragon-curve (if phone? 6 12)  ;; length
 					    10))              ;; level
 
-		    ;; custom pattern
+		    ;; custom pattern - spiral staircase
 		    ((3) (draw-polygon-spiral (if phone? 6 100) ;; length
 					      3      ;; sides
 					      8      ;; angle
