@@ -32,6 +32,6 @@
 					  '((fl fl + fr + + fr - fl - - fl fl - fr +) (fr - fl + fr fr + + fr + fl - - fl - fr))
 					  (if iphone? 5 10) ;; length
 					  60                ;; angle
-					  3))               ;; level
+					  4))               ;; level
 
 		    ))))
