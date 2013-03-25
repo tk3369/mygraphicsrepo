@@ -28,8 +28,10 @@
 					      70))
 
 		    ;; hexagonal Gosper curve - page 12
-		    ((4) (draw-koch-curve 8                 ;; curve type
-					  (if iphone? 5 40) ;; length
+		    ((4) (draw-lsys-graph '(fl)
+					  '((fl fl + fr + + fr - fl - - fl fl - fr +) (fr - fl + fr fr + + fr + fl - - fl - fr))
+					  (if iphone? 5 10) ;; length
+					  60                ;; angle
 					  3))               ;; level
 
 		    ))))
