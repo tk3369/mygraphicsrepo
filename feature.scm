@@ -2,7 +2,7 @@
 
 (draw-program "Feature Image" 
 	      (lambda ()
-		(let ((r      (random-between-integer 1 4))
+		(let ((r      (random-between-integer 5 5))
 		      (phone? (ui:running-in-iphone?)))
 
 		  (log-info "Drawing feature image #" r)
@@ -33,5 +33,12 @@
 					  (if phone? 5 10)  ;; length
 					  60                ;; angle
 					  4))               ;; level
+
+		    ;; hexagonal Gosper curve - page 12
+		    ((5) (draw-lsys-graph '(f - f - f - f)
+					  '((f f f - f + f - f - f f))
+					  (if phone? 5 10)  ;; length
+					  90                ;; angle
+					  3))               ;; level
 
 		    ))))
