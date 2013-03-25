@@ -29,7 +29,7 @@
 
 		    ;; hexagonal Gosper curve - page 12
 		    ((4) (draw-koch-curve 8                 ;; curve type
-					  (if iphone? 5 20) ;; length
+					  (if iphone? 5 40) ;; length
 					  3))               ;; level
 
 		    ))))
