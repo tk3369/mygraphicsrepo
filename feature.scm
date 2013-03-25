@@ -2,7 +2,7 @@
 
 (draw-program "Feature Image" 
 	      (lambda ()
-		(let ((r      (random-between-integer 5 5))
+		(let ((r      (random-between-integer 6 6))
 		      (phone? (ui:running-in-iphone?)))
 
 		  (log-info "Drawing feature image #" r)
