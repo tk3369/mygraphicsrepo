@@ -4,9 +4,10 @@
 	      (lambda ()
 		(let ((r      (random-between-integer 1 4))
 		      (phone? (ui:running-in-iphone?)))
-		  (case r
 
-		    (log-info "Drawing feature image #" r)
+		  (log-info "Drawing feature image #" r)
+
+		  (case r
 
 		    ;; custom tree
 		    ((1) (draw-lsys-graph '(f)
