@@ -37,7 +37,7 @@
 		    ;; koch - page 10
 		    ((5) (draw-lsys-graph '(f - f - f - f)
 					  '((f f f - f + f - f - f f))
-					  (if phone? 5 20)  ;; length
+					  (if phone? 8 20)  ;; length
 					  90                ;; angle
 					  3))               ;; level
 
