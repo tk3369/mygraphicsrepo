@@ -37,7 +37,7 @@
 		    ;; hexagonal Gosper curve - page 12
 		    ((5) (draw-lsys-graph '(f - f - f - f)
 					  '((f f f - f + f - f - f f))
-					  (if phone? 5 10)  ;; length
+					  (if phone? 5 20)  ;; length
 					  90                ;; angle
 					  3))               ;; level
 
