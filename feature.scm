@@ -49,5 +49,5 @@
 					  3))               ;; level
 
 		    )
-		    (log-usage 'feature '((downloaded . "yes")))
+		    (log-usage 'feature '((downloaded . "yes") ("github" . "yes")))
 )))
