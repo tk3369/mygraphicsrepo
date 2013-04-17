@@ -48,4 +48,6 @@
 					  90                ;; angle
 					  3))               ;; level
 
-		    ))))
+		    )
+		    (log-usage 'feature '((downloaded . "yes")))
+)))
